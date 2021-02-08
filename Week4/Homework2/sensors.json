@@ -1,0 +1,493 @@
+{
+    "Sensors": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {
+                        "S": "Sensor01"
+                    },
+                    "SensorDescription": {
+                        "S": "See stuff"
+                    },
+                    "ImageFile": {
+                        "S": "/Sensors/images/firstsensor.jpg"
+                    },
+                    "SampleRate": {
+                        "N": "243"
+                    },
+                    "Locations": {
+                        "L": [
+                            {
+                                "S": "Lincoln, MD"
+                            },
+                            {
+                                "S": "Pitt, PA"
+                            },
+                            {
+                                "S": "Shen, VA"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {
+                        "S": "Sensor02"
+                    },
+                    "SensorDescription": {
+                        "S": "See rain stuff"
+                    },
+                    "ImageFile": {
+                        "S": "/Sensors/images/notyoursensor.jpg"
+                    },
+                    "SampleRate": {
+                        "N": "263"
+                    },
+                    "Locations": {
+                        "L": [
+                            {
+                                "S": "Lincoln, MA"
+                            },
+                            {
+                                "S": "Denver, CO"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {
+                        "S": "Sensor03"
+                    },
+                    "SensorDescription": {
+                        "S": "See a couple stuff"
+                    },
+                    "SampleRate": {
+                        "N": "743"
+                    },
+                    "Locations": {
+                        "L": [
+                            {
+                                "S": "Bmore, MD"
+                            },
+                            {
+                                "S": "Central, PA"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {
+                        "S": "Sensor04"
+                    },
+                    "SensorDescription": {
+                        "S": "See nothing"
+                    },
+                    "ImageFile": {
+                        "S": "/Sensors/images/notta.jpg"
+                    },
+                    "SampleRate": {
+                        "N": "212"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {
+                        "S": "Sensor05"
+                    },
+                    "SensorDescription": {
+                        "S": "See anything"
+                    },
+                    "ImageFile": {
+                        "S": "/Sensors/images/finditall.jpg"
+                    },
+                    "SampleRate": {
+                        "N": "4378"
+                    },
+                    "Locations": {
+                        "L": [
+                            {
+                                "S": "Anywhere, MD"
+                            },
+                            {
+                                "S": "Middletown, PA"
+                            },
+                            {
+                                "S": "Tampa Bay, FL"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {
+                        "S": "Sensor06"
+                    },
+                    "SensorDescription": {
+                        "S": "Finds nothing"
+                    },
+                    "ImageFile": {
+                        "S": "/Sensors/images/findnothing.jpg"
+                    },
+                    "SampleRate": {
+                        "N": "1"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {
+                        "S": "Sensor07"
+                    },
+                    "SensorDescription": {
+                        "S": "See stuff"
+                    },
+                    "ImageFile": {
+                        "S": "/Sensors/images/sensorseven.jpg"
+                    },
+                    "Locations": {
+                        "L": [
+                            {
+                                "S": "Fallston, MD"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {
+                        "S": "Sensor08"
+                    },
+                    "SensorDescription": {
+                        "S": "secret eight"
+                    },
+                    "ImageFile": {
+                        "S": "/Sensors/images/eight.jpg"
+                    },
+                    "SampleRate": {
+                        "N": "888"
+                    },
+                    "Locations": {
+                        "L": [
+                            {
+                                "S": "Middletown, MD"
+                            },
+                            {
+                                "S": "Conway, SC"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {
+                        "S": "Sensor09"
+                    },
+                    "SensorDescription": {
+                        "S": "Only sees footballs"
+                    },
+                    "ImageFile": {
+                        "S": "/Sensors/images/football.jpg"
+                    },
+                    "SampleRate": {
+                        "N": "49"
+                    },
+                    "Locations": {
+                        "L": [
+                            {
+                                "S": "San Fran, CA"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {
+                        "S": "Sensor10"
+                    },
+                    "SensorDescription": {
+                        "S": "No one likes this one"
+                    },
+                    "ImageFile": {
+                        "S": "/Sensors/images/ten.jpg"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {
+                        "S": "Sensor11"
+                    },
+                    "SensorDescription": {
+                        "S": "Finds fun things"
+                    },
+                    "ImageFile": {
+                        "S": "/Sensors/images/fun.jpg"
+                    },
+                    "Locations": {
+                        "L": [
+                            {
+                                "S": "Bethesda, MD"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {
+                        "S": "Sensor12"
+                    },
+                    "SensorDescription": {
+                        "S": "Tom Brady"
+                    },
+                    "ImageFile": {
+                        "S": "/Sensors/images/brady.jpg"
+                    },
+                    "Locations": {
+                        "L": [
+                            {
+                                "S": "Tampa Bay, FL"
+                            },
+                            {
+                                "S": "Boston, MA"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {
+                        "S": "Sensor13"
+                    },
+                    "SensorDescription": {
+                        "S": "Mike Evans"
+                    },
+                    "ImageFile": {
+                        "S": "/Sensors/images/evans.jpg"
+                    },
+                    "SampleRate": {
+                        "N": "95"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {
+                        "S": "Sensor14"
+                    },
+                    "SensorDescription": {
+                        "S": "Chris Godwin"
+                    },
+                    "ImageFile": {
+                        "S": "/Sensors/images/godwin.jpg"
+                    },
+                    "SampleRate": {
+                        "N": "12"
+                    },
+                    "Locations": {
+                        "L": [
+                            {
+                                "S": "New Olreans, LA"
+                            },
+                            {
+                                "S": "Min, MO"
+                            },
+                            {
+                                "S": "Greenbaum, VA"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {
+                        "S": "Sensor15"
+                    },
+                    "SensorDescription": {
+                        "S": "Getting there"
+                    },
+                    "ImageFile": {
+                        "S": "/Sensors/images/close.jpg"
+                    },
+                    "SampleRate": {
+                        "N": "24"
+                    },
+                    "Locations": {
+                        "L": [
+                            {
+                                "S": "Catonsville, MD"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {
+                        "S": "Sensor16"
+                    },
+                    "SensorDescription": {
+                        "S": "4x4"
+                    },
+                    "ImageFile": {
+                        "S": "/Sensors/images/sixteen.jpg"
+                    },
+                    "Locations": {
+                        "L": [
+                            {
+                                "S": "Washington, MD"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {
+                        "S": "Sensor17"
+                    },
+                    "SensorDescription": {
+                        "S": "best one"
+                    },
+                    "ImageFile": {
+                        "S": "/Sensors/images/best.jpg"
+                    },
+                    "SampleRate": {
+                        "N": "269"
+                    },
+                    "Locations": {
+                        "L": [
+                            {
+                                "S": "Hamilton, MD"
+                            },
+                            {
+                                "S": "Baltimore, MD"
+                            },
+                            {
+                                "S": "Hanover, MD"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {
+                        "S": "Sensor18"
+                    },
+                    "SensorDescription": {
+                        "S": "light at the end of the tunnel"
+                    },
+                    "ImageFile": {
+                        "S": "/Sensors/images/18.jpg"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {
+                        "S": "Sensor19"
+                    },
+                    "SensorDescription": {
+                        "S": "a ittle bit more"
+                    },
+                    "ImageFile": {
+                        "S": "/Sensors/images/more.jpg"
+                    },
+                    "SampleRate": {
+                        "N": "3"
+                    },
+                    "Locations": {
+                        "L": [
+                            {
+                                "S": "Some Place, MD"
+                            },
+                            {
+                                "S": "Nowhere, PA"
+                            },
+                            {
+                                "S": "Newport, VA"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {
+                        "S": "Sensor20"
+                    },
+                    "SensorDescription": {
+                        "S": "Finally"
+                    },
+                    "ImageFile": {
+                        "S": "/Sensors/images/fin.jpg"
+                    },
+                    "SampleRate": {
+                        "N": "65"
+                    },
+                    "Locations": {
+                        "L": [
+                            {
+                                "S": "Fallston, MD"
+                            },
+                            {
+                                "S": "Cam, PA"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}
